@@ -1,0 +1,121 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Form Container */
+#dynamic-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Field styling */
+input[type="text"], input[type="radio"], input[type="checkbox"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Labels for fields */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Style for button containers */
+button {
+    padding: 8px 20px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Specific styling for each button */
+#submit-form {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#clear-form {
+    background-color: #f44336;
+    color: white;
+}
+
+#export-csv {
+    background-color: #2196F3;
+    color: white;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    background-color: #ffa500;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.edit-button:hover, .delete-button:hover {
+    opacity: 0.8;
+}
+
+/* Style for checkboxes and radio buttons */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #dynamic-form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .edit-button, .delete-button {
+        width: 100%;
+    }
+
+    input[type="text"], select {
+        width: 100%;
+    }
+}
