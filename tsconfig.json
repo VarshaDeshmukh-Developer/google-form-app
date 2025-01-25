@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                    // Ensure target is ES6 or later
+      "module": "ES6",                    // Use ES6 modules
+      "outDir": "./dist",
+      "strict": true,
+      "lib": ["ES2017", "DOM"],           // Include ES2017 or later for Object.values()
+      "esModuleInterop": true
+    },
+    "include": ["app.ts"]
+  }
+  
